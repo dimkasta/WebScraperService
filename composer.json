@@ -1,0 +1,21 @@
+{
+    "name": "iconic/scraper",
+    "description": "Laravel Service Provider for Goutte",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dimkasta",
+            "email": "dimkasta@yahoo.gr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fabpot/goutte": "^3.1",
+        "laravel/framework": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iconic\\Scraper\\": "src/Iconic/Scraper/"
+        }
+    }
+}
