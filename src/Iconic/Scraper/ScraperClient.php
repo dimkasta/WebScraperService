@@ -23,13 +23,6 @@ class ScraperClient
 		return $this->client->request('GET', $url);
 	}
 
-	/**
-	 * Test Agent
-	 */
-	public function testAgent()
-	{
-		$crawler = $this->client->read('https://www.deviantworld.com');
-		dd($crawler->filter('#uas_textfeld')->text());
-	}
+
 }
 
